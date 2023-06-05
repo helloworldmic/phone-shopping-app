@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/iPhone"
+        android:title="iPhone" />
+    <item
+        android:id="@+id/Samsung"
+        android:title="Samsung" />
+    <item
+        android:id="@+id/GooglePixel"
+        android:title="Google Pixel" />
+    <item
+        android:id="@+id/Oppo"
+        android:title="Oppo" />
+    <item
+        android:id="@+id/choosespec"
+        android:title="Choose Spec"/>
+
+    <item
+        android:id="@+id/personalinfo"
+        android:title="Personal Info"/>
+
+    <item
+        android:id="@+id/orderdone"
+        android:title="Confirmed Order"/>
+</menu>

@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">YatManChan_MAPD711-001_Assignment2</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="prompt">Choose a province</string>
+
+    <string-array name="color">
+        <item>Blue</item>
+        <item>Black</item>
+        <item>Silver</item>
+        <item>Gold</item>
+        <item>Rose Gold</item>
+    </string-array>
+
+    // iPhone prices
+    <string name="price_iphone_64gb">$1249</string>
+    <string name="price_iphone_128gb">$1349</string>
+    <string name="price_iphone_256gb">$1449</string>
+    // Samsung prices
+    <string name="price_samsung_64gb">$999</string>
+    <string name="price_samsung_128gb">$1099</string>
+    <string name="price_samsung_256gb">$1199</string>
+    //oppo prices
+    <string name="price_oppo_64gb">$699</string>
+    <string name="price_oppo_128gb">$799</string>
+    <string name="price_oppo_256gb">$899</string>
+    // google pixel prices
+    <string name="price_google_pixel_64gb">$899</string>
+    <string name="price_google_pixel_128gb">$999</string>
+    <string name="price_google_pixel_256gb">$1099</string>
+
+    <string-array name="iPhoneModels">
+        <item>iPhone 14</item>
+        <item>iPhone 14 Max</item>
+        <item>iPhone 14 Pro</item>
+    </string-array>
+    <string-array name="SamsungModels">
+        <item>Samsung Galaxy S21</item>
+        <item>Samsung Galaxy S21 Ultra</item>
+        <item>Samsung Galaxy S21 Plus</item>
+    </string-array>
+    <string-array name="GooglePixelModels">
+        <item>Google Pixel 6</item>
+        <item>Google Pixel 6 Pro</item>
+        <item>Google Pixel 6 XL</item>
+    </string-array>
+    <string-array name="OppoModels">
+        <item>Oppo Find X3 Pro</item>
+        <item>Oppo Find X3 Neo</item>
+        <item>Oppo Find X3 Lite</item>
+    </string-array>
+</resources>

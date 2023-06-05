@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SpecActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Specification"
+        android:textSize="48sp" />
+
+    <TextView
+        android:id="@+id/selectedModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="selected model"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Storage"
+        android:textSize="34sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup1">
+
+        <RadioButton
+            android:id="@+id/radioButton64"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="64GB"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton128"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="128GB"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton256"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="256GB"
+            android:textSize="24sp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Color"
+        android:textSize="34sp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dropDownWidth="match_parent"
+        android:minHeight="48dp"
+        android:entries="@array/color"
+        android:spinnerMode="dropdown" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="20sp"  />
+<!--        android:onClick="Submit_Click"-->
+
+</LinearLayout>
